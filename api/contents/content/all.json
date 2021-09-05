@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-09-05T17:34:52.801528Z",
+      "format": null,
+      "last_modified": "2021-09-05T17:34:05.257265Z",
+      "mimetype": "text/markdown",
+      "name": "index.md",
+      "path": "content/index.md",
+      "size": 17,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-09-05T17:34:52.801528Z",
+  "format": "json",
+  "last_modified": "2021-09-05T17:34:52.801528Z",
+  "mimetype": null,
+  "name": "content",
+  "path": "content",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

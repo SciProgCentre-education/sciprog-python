@@ -1,0 +1,37 @@
+{
+  "jupyter-config-data": {
+    "appUrl": "./lab",
+    "baseUrl": "./",
+    "faviconUrl": "./lab/favicon.ico",
+    "federated_extensions": [
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.636f4a9dd32e899d40bb.js",
+        "name": "@jupyter-widgets/jupyterlab-manager"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.bf6b3192a558615425cd.js",
+        "name": "@telamonian/theme-darcula"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.145e469029155b53b350.js",
+        "name": "@timkpaine/jupyterlab_miami_nights"
+      },
+      {
+        "extension": "./extension",
+        "load": "static/remoteEntry.8f896d6ad92823566c46.js",
+        "name": "jupyterlab-drawio",
+        "style": "./style"
+      }
+    ],
+    "fullLabextensionsUrl": "./lab/extensions",
+    "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
+    "fullStaticUrl": "./lab/build",
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "settingsUrl": "./lab/build/schemas",
+    "themesUrl": "./lab/build/themes"
+  },
+  "jupyter-lite-schema-version": 0
+}
