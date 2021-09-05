@@ -1,0 +1,12 @@
+# Core
+jupyterlab==3.1.0b1
+jupyterlab_miami_nights
+jupyterlite==0.1.0a5
+ipywidgets>=7.6
+
+# Jupyter lab extensions
+jupyterlab-drawio
+
+# Themes
+jupyterlab_miami_nights
+theme-darcula
