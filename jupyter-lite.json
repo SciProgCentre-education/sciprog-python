@@ -1,0 +1,9 @@
+{
+  "jupyter-config-data": {
+    "appName": "JupyterLite For Advanced Python",
+    "appUrl": "./lab",
+    "baseUrl": "./",
+    "faviconUrl": "./lab/favicon.ico",
+    "settingsOverrides" : {}
+  }
+}
