@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-09-07T12:44:23.699266Z",
+      "format": null,
+      "last_modified": "2021-09-07T12:43:49.086787Z",
+      "mimetype": "text/x-python",
+      "name": "module.py",
+      "path": "files/general_overview/compile_example/module.py",
+      "size": 62,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-09-07T12:44:23.699266Z",
+      "format": null,
+      "last_modified": "2021-09-07T12:43:49.086787Z",
+      "mimetype": "text/x-python",
+      "name": "example.py",
+      "path": "files/general_overview/compile_example/example.py",
+      "size": 71,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-09-07T12:44:23.699266Z",
+  "format": "json",
+  "last_modified": "2021-09-07T12:44:23.699266Z",
+  "mimetype": null,
+  "name": "compile_example",
+  "path": "files/general_overview/compile_example",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

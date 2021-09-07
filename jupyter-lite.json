@@ -1,5 +1,6 @@
 {
   "jupyter-config-data": {
+    "appName": "JupyterLite For Advanced Python",
     "appUrl": "./lab",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
@@ -30,6 +31,7 @@
     "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
     "fullStaticUrl": "./lab/build",
     "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "settingsOverrides": {},
     "settingsUrl": "./lab/build/schemas",
     "themesUrl": "./lab/build/themes"
   },
