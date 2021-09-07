@@ -1,6 +1,8 @@
 # Advanced Python programming for MIPT NPN master's program.
 
+* [Просмотреть материалы курса в `jupyter lab` в браузере, для навигации откройте файл `index.md`]( https://mipt-npm.github.io/sciprog-python/)
 * Телеграмм-чат: [https://t.me/mipt_npm_python](https://t.me/mipt_npm_python)
+
 
 # Список тем
 
