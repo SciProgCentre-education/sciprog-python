@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-09-17T15:54:28.158623Z",
+      "format": null,
+      "last_modified": "2021-09-17T15:53:55.686421Z",
+      "mimetype": "text/html",
+      "name": "habr_magic_method_tutorial.html",
+      "path": "papers/habr_magic_method_tutorial.html",
+      "size": 278555,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-09-17T15:54:28.154623Z",
+  "format": "json",
+  "last_modified": "2021-09-17T15:54:28.154623Z",
+  "mimetype": null,
+  "name": "papers",
+  "path": "papers",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

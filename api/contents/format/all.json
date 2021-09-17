@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-09-17T15:54:28.150623Z",
+      "format": null,
+      "last_modified": "2021-09-17T15:53:55.678421Z",
+      "mimetype": "text/x-python",
+      "name": "json.py",
+      "path": "format/json.py",
+      "size": 74,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-09-17T15:54:28.150623Z",
+      "format": null,
+      "last_modified": "2021-09-17T15:53:55.678421Z",
+      "mimetype": "application/json",
+      "name": "test.json",
+      "path": "format/test.json",
+      "size": 96,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-09-17T15:54:28.150623Z",
+  "format": "json",
+  "last_modified": "2021-09-17T15:54:28.150623Z",
+  "mimetype": null,
+  "name": "format",
+  "path": "format",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

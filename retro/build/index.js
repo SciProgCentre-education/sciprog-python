@@ -64,10 +64,18 @@ async function main() {
     require('@retrolab/notebook-extension'),
 
     // @jupyterlab plugins
+    require('@jupyterlab/application-extension').default.filter(({ id }) =>
+      [
+        '@jupyterlab/application-extension:commands',
+        '@jupyterlab/application-extension:context-menu',
+        '@jupyterlab/application-extension:faviconbusy'
+      ].includes(id)
+    ),
     require('@jupyterlab/apputils-extension').default.filter(({ id }) =>
       [
         '@jupyterlab/apputils-extension:palette',
         '@jupyterlab/apputils-extension:settings',
+        '@jupyterlab/apputils-extension:state',
         '@jupyterlab/apputils-extension:themes',
         '@jupyterlab/apputils-extension:themes-palette-menu'
       ].includes(id)
@@ -81,6 +89,7 @@ async function main() {
     require('@jupyterlab/completer-extension').default.filter(({ id }) =>
       ['@jupyterlab/completer-extension:manager'].includes(id)
     ),
+    require('@jupyterlab/console-extension'),
     require('@jupyterlab/docmanager-extension').default.filter(({ id }) =>
       ['@jupyterlab/docmanager-extension:plugin'].includes(id)
     ),
@@ -130,6 +139,20 @@ async function main() {
           [
             '@jupyterlab/tooltip-extension:manager',
             '@jupyterlab/tooltip-extension:notebooks'
+          ].includes(id)
+        )
+      ]);
+      break;
+    }
+    case 'consoles': {
+      mods = mods.concat([
+        require('@jupyterlab/completer-extension').default.filter(({ id }) =>
+          ['@jupyterlab/completer-extension:consoles'].includes(id)
+        ),
+        require('@jupyterlab/tooltip-extension').default.filter(({ id }) =>
+          [
+            '@jupyterlab/tooltip-extension:manager',
+            '@jupyterlab/tooltip-extension:consoles'
           ].includes(id)
         )
       ]);
