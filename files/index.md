@@ -27,3 +27,13 @@
 * [Conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#managing-environments)
 * [IPython](https://ipython.readthedocs.io/en/stable/)
 * [Jupyter](https://jupyter.org/)
+
+
+## Список литературы
+
+* Лутц М. Изучаем Python, 4-е издание. – Пер. с англ. – СПб.: Символ-Плюс, 2011. –1280 с., ил.
+* Лутц М. Программирование на Python, том I, 4-е издание. – Пер. с англ. – СПб.: Символ-Плюс, 2011. – 992 с., ил.
+* Лутц М. Программирование на Python, том II, 4-е издание. – Пер. с англ. – СПб.: Сим­вол-Плюс, 2011. – 992 с., ил.
+* Travis E. Oliphant, Guide to NumPy
+* Tosi S. Matplotlib for Python developers. – Packt Publishing Ltd, 2009.
+* [COMP 3321](https://nsa.sfo2.digitaloceanspaces.com/comp3321.pdf)
