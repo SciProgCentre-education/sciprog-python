@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-09-21T13:00:06.141995Z",
+      "format": null,
+      "last_modified": "2021-09-21T12:59:23.816334Z",
+      "mimetype": "text/x-python",
+      "name": "__init__.py",
+      "path": "general_overview/loading/two/__init__.py",
+      "size": 14,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-09-21T13:00:06.141995Z",
+      "format": null,
+      "last_modified": "2021-09-21T12:59:23.816334Z",
+      "mimetype": "text/x-python",
+      "name": "foo.py",
+      "path": "general_overview/loading/two/foo.py",
+      "size": 12,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-09-21T13:00:06.141995Z",
+  "format": "json",
+  "last_modified": "2021-09-21T13:00:06.141995Z",
+  "mimetype": null,
+  "name": "two",
+  "path": "general_overview/loading/two",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

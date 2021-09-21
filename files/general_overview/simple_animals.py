@@ -21,3 +21,17 @@ class Dog(Animals):
 
 class Cat(Animals):
     pass
+
+
+def main():
+    feeder = Feeder(60)
+    cat = Cat()
+    dog = Dog()
+
+
+
+    return 0
+
+
+if __name__ == '__main__':
+    main()

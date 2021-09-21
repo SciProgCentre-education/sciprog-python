@@ -6,21 +6,9 @@
       "format": null,
       "last_modified": "2021-09-21T12:59:23.812334Z",
       "mimetype": "text/x-python",
-      "name": "json_.py",
-      "path": "format/json_.py",
-      "size": 112,
-      "type": "file",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2021-09-21T13:00:06.133995Z",
-      "format": null,
-      "last_modified": "2021-09-21T12:59:23.812334Z",
-      "mimetype": "application/json",
-      "name": "test.json",
-      "path": "format/test.json",
-      "size": 96,
+      "name": "cmd_.py",
+      "path": "CLI/cmd_.py",
+      "size": 2563,
       "type": "file",
       "writable": true
     }
@@ -29,8 +17,8 @@
   "format": "json",
   "last_modified": "2021-09-21T13:00:06.133995Z",
   "mimetype": null,
-  "name": "format",
-  "path": "format",
+  "name": "CLI",
+  "path": "CLI",
   "size": null,
   "type": "directory",
   "writable": true
