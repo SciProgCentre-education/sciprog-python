@@ -5,14 +5,17 @@ my_global_dict: dict[int, float] = {}
 def greeting_1(name):
     return 'Hello ' + name
 
+
 def greeting_2(name: str) -> str:
     return 'Hello ' + name
 
 def greet_all_1(names: list[str]) -> None:
+
     for name in names:
         print('Hello ' + name)
 
 def greet_all_2(names: Iterable[str]) -> None:
+
     for name in names:
         print('Hello ' + name)
 
