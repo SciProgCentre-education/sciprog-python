@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-10-08T15:06:18.202577Z",
+      "created": "2021-10-08T15:13:02.907476Z",
       "format": null,
-      "last_modified": "2021-10-08T15:05:39.518661Z",
+      "last_modified": "2021-10-08T15:12:25.642946Z",
       "mimetype": null,
       "name": "arch.dio",
       "path": "device_control/arch.dio",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-10-08T15:06:18.202577Z",
+      "created": "2021-10-08T15:13:02.907476Z",
       "format": null,
-      "last_modified": "2021-10-08T15:05:39.518661Z",
+      "last_modified": "2021-10-08T15:12:25.642946Z",
       "mimetype": "image/svg+xml",
       "name": "arch.svg",
       "path": "device_control/arch.svg",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2021-10-08T15:06:18.202577Z",
+      "created": "2021-10-08T15:13:02.907476Z",
       "format": null,
-      "last_modified": "2021-10-08T15:05:39.518661Z",
+      "last_modified": "2021-10-08T15:12:25.642946Z",
       "mimetype": null,
       "name": "01.Device.ipynb",
       "path": "device_control/01.Device.ipynb",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2021-10-08T15:06:18.202577Z",
+  "created": "2021-10-08T15:13:02.907476Z",
   "format": "json",
-  "last_modified": "2021-10-08T15:06:18.202577Z",
+  "last_modified": "2021-10-08T15:13:02.907476Z",
   "mimetype": null,
   "name": "device_control",
   "path": "device_control",

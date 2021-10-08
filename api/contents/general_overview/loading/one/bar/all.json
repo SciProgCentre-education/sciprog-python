@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-10-08T15:06:18.210577Z",
+      "created": "2021-10-08T15:13:02.915477Z",
       "format": null,
-      "last_modified": "2021-10-08T15:05:39.522661Z",
+      "last_modified": "2021-10-08T15:12:25.646947Z",
       "mimetype": "text/x-python",
       "name": "__init__.py",
       "path": "general_overview/loading/one/bar/__init__.py",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2021-10-08T15:06:18.210577Z",
+  "created": "2021-10-08T15:13:02.915477Z",
   "format": "json",
-  "last_modified": "2021-10-08T15:06:18.210577Z",
+  "last_modified": "2021-10-08T15:13:02.915477Z",
   "mimetype": null,
   "name": "bar",
   "path": "general_overview/loading/one/bar",

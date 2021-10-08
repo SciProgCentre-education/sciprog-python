@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-10-08T15:06:18.218577Z",
+      "created": "2021-10-08T15:13:02.919477Z",
       "format": null,
-      "last_modified": "2021-10-08T15:05:39.526661Z",
+      "last_modified": "2021-10-08T15:12:25.646947Z",
       "mimetype": "text/x-python",
       "name": "observable.py",
       "path": "patterns/observable.py",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2021-10-08T15:06:18.218577Z",
+  "created": "2021-10-08T15:13:02.919477Z",
   "format": "json",
-  "last_modified": "2021-10-08T15:06:18.218577Z",
+  "last_modified": "2021-10-08T15:13:02.919477Z",
   "mimetype": null,
   "name": "patterns",
   "path": "patterns",
