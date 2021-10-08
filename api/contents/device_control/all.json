@@ -2,9 +2,33 @@
   "content": [
     {
       "content": null,
-      "created": "2021-09-21T15:40:46.603517Z",
+      "created": "2021-10-08T15:06:18.202577Z",
       "format": null,
-      "last_modified": "2021-09-21T15:39:55.259474Z",
+      "last_modified": "2021-10-08T15:05:39.518661Z",
+      "mimetype": null,
+      "name": "arch.dio",
+      "path": "device_control/arch.dio",
+      "size": 6160,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-10-08T15:06:18.202577Z",
+      "format": null,
+      "last_modified": "2021-10-08T15:05:39.518661Z",
+      "mimetype": "image/svg+xml",
+      "name": "arch.svg",
+      "path": "device_control/arch.svg",
+      "size": 16387,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-10-08T15:06:18.202577Z",
+      "format": null,
+      "last_modified": "2021-10-08T15:05:39.518661Z",
       "mimetype": null,
       "name": "01.Device.ipynb",
       "path": "device_control/01.Device.ipynb",
@@ -13,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2021-09-21T15:40:46.603517Z",
+  "created": "2021-10-08T15:06:18.202577Z",
   "format": "json",
-  "last_modified": "2021-09-21T15:40:46.603517Z",
+  "last_modified": "2021-10-08T15:06:18.202577Z",
   "mimetype": null,
   "name": "device_control",
   "path": "device_control",
