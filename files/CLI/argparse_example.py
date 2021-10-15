@@ -19,15 +19,15 @@ def create_parser():
     parser.add_argument("-j", "--jobName", metavar="JOB_NAME", default="",
                         help="JOB_NAME defines the name of scripts and output files stored under slurmJobs/")
 
-    # parser.add_argument("-o", "--onlyScripts", action="store_true",
-    #                     help="It will just generate the slurm scripts without launching to the queue")
+    parser.add_argument("-o", "--onlyScripts", action="store_true",
+                        help="It will just generate the slurm scripts without launching to the queue")
     parser.add_argument("-l", "--logPath", default="", help="log output directory")
     return parser
 
 
 def main():
     args = create_parser().parse_args()
-
+    args.onlyScripts
     return 0
 
 if __name__ == '__main__':
