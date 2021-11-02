@@ -3,7 +3,7 @@ dependencies:
   - python=3.9
   - numpy
   - scipy
-  - matplotlib
+  - plot
   - jupyter
   - jupyterlab
   - pip
