@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-11-02T15:42:54.044106Z",
+      "created": "2021-11-09T13:25:07.482357Z",
       "format": null,
-      "last_modified": "2021-11-02T15:42:12.507825Z",
+      "last_modified": "2021-11-09T13:24:25.178149Z",
       "mimetype": "text/html",
       "name": "habr_magic_method_tutorial.html",
       "path": "papers/habr_magic_method_tutorial.html",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2021-11-02T15:42:54.044106Z",
+  "created": "2021-11-09T13:25:07.482357Z",
   "format": "json",
-  "last_modified": "2021-11-02T15:42:54.044106Z",
+  "last_modified": "2021-11-09T13:25:07.482357Z",
   "mimetype": null,
   "name": "papers",
   "path": "papers",
