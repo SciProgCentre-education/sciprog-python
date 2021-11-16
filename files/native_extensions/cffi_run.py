@@ -14,8 +14,10 @@ if __name__ == '__main__':
     toc = time.perf_counter()
     print(toc - tic, "s")
     image = np.zeros((200,200))
-    for i in range(200):
-        for j in range(200):
-            image[i,j] = image_cffi[i][j]
-    plt.imshow(image)
-    plt.show()
+    data = ffi.buffer(ffi.unpack(image_cffi, 1)[0], 4*200)
+    print(np.frombuffer(data, ">i4"))
+    # for i in range(200):
+    #     for j in range(200):
+    #         image[i,j] = image_cffi[i][j]
+    # plt.imshow(image)
+    # plt.show()

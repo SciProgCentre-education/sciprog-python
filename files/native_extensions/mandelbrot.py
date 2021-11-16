@@ -1,6 +1,7 @@
 import time
 
 import numpy as np
+from matplotlib import pyplot as plt
 
 
 def mandelbrot():
@@ -22,6 +23,8 @@ def mandelbrot():
 
 if __name__ == '__main__':
     tic = time.perf_counter()
-    mandelbrot()
+    image = mandelbrot()
     toc = time.perf_counter()
     print(toc - tic, "s")
+    plt.imshow(image)
+    plt.show()
