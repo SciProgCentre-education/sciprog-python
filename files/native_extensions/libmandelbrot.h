@@ -1,0 +1,1 @@
+int** mandelbrot(int ppoints, int qpoints);
