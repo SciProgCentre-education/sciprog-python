@@ -1,0 +1,17 @@
+
+using python
+    : 3.9
+    : /usr/bin/python3
+    : /usr/include/python3.9 ;
+
+project tutorial
+  : requirements
+    <location>.
+    ;
+
+python-extension boost_mandelbrot_ext : libmandelbrot.cpp ;
+
+# run-test hello : hello_ext boost_mandelbrot.py ;
+
+alias test : hello ;
+explicit test ;

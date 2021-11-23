@@ -1,10 +1,13 @@
+import time
+
 import numpy as np
+from matplotlib import pyplot as plt
 
 
 def mandelbrot():
     pmin, pmax, qmin, qmax = -2.5, 1.5, -2, 2
     ppoints, qpoints = 200, 200
-    max_iterations = 300
+    max_iterations = 400
     infinity_border = 100
     image = np.zeros((ppoints, qpoints))
     for ip, p in enumerate(np.linspace(pmin, pmax, ppoints)):
@@ -17,3 +20,11 @@ def mandelbrot():
                     image[ip, iq] = 1
                     break
     return image
+
+if __name__ == '__main__':
+    tic = time.perf_counter()
+    image = mandelbrot()
+    toc = time.perf_counter()
+    print(toc - tic, "s")
+    plt.imshow(image)
+    plt.show()
