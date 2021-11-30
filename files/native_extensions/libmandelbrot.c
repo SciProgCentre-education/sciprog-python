@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+//void mandelbrot(int** image, int ppoints, int qpoints)
+
 int** mandelbrot(int ppoints, int qpoints) {
     double pmin, pmax, qmin, qmax;
     pmin = -2.5; pmax = 1.5; qmin = -2; qmax = 2;
