@@ -3,6 +3,7 @@ import zipfile
 from zipfile import ZipFile
 
 # https://docs.python.org/3/library/zipfile.html
+# ZIP Bombs!!!
 
 if __name__ == '__main__':
     with ZipFile('spam.zip', 'w', compresslevel=9) as myzip:

@@ -9,6 +9,9 @@ if __name__ == '__main__':
     tic = time.perf_counter()
     image_ctypes = ctypes_dll.mandelbrot(200, 200)
     toc = time.perf_counter()
+    # More Correct variant
+    # arg = POINTER(POINTER(c_int*200)*200)
+    # ctypes_dll.mandelbrot(arg, 200, 200)
     print(toc - tic, "s")
     image = np.zeros((200, 200))
     for i, item in enumerate(image_ctypes.contents):
