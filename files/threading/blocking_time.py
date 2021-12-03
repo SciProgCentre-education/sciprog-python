@@ -11,7 +11,7 @@ def task(name):
 def main():
     tic = time.perf_counter()
     for i in range(5):
-        task("task {}".format(i))
+        task("task_10 {}".format(i))
     toc = time.perf_counter()
     print(toc - tic, "s")
     return 0

@@ -12,7 +12,7 @@ def main():
     tic = time.perf_counter()
     pool = []
     for i in range(16):
-        process = Process(target = task, args = ("task {}".format(i),))
+        process = Process(target = task, args = ("task_10 {}".format(i),))
         pool.append(process)
         process.start()
 

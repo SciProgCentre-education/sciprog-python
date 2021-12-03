@@ -13,7 +13,7 @@ def main():
     with ThreadPoolExecutor(max_workers=2) as executor:
         pool = []
         for i in range(5):
-            pool.append(executor.submit(task, "task {}".format(i)))
+            pool.append(executor.submit(task, "task_10 {}".format(i)))
         for future in pool:
             future.result()
     toc = time.perf_counter()

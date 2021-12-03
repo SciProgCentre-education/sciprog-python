@@ -14,7 +14,7 @@ async def main():
     tic = time.perf_counter()
     pool = []
     for i in range(5):
-        pool.append(task("task {}".format(i)))
+        pool.append(task("task_10 {}".format(i)))
     await asyncio.gather(*pool)
     toc = time.perf_counter()
     print(toc - tic, "s")

@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-03T14:21:03.776200Z",
+      "format": null,
+      "last_modified": "2021-12-03T14:20:16.503821Z",
+      "mimetype": "text/x-python",
+      "name": "USB.py",
+      "path": "USB/USB.py",
+      "size": 2066,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-03T14:21:03.776200Z",
+  "format": "json",
+  "last_modified": "2021-12-03T14:21:03.776200Z",
+  "mimetype": null,
+  "name": "USB",
+  "path": "USB",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
