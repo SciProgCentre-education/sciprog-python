@@ -1,9 +1,33 @@
 import time
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from string import Template
 
+HTML_TEMPLATE = Template("""<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Page Title</title>
+    <meta http-equiv="refresh" content="1">
+</head>
+  
+<body>
+    ${body}
+</body>
+  
+</html>
+
+""")
+
+def counter_generator():
+    counter = 0
+    while True:
+        yield counter
+        counter +=1
 
 class Handler(BaseHTTPRequestHandler):
+
+    counter = counter_generator()
 
     def _header(self):
         self.send_response(HTTPStatus.OK)
@@ -15,14 +39,11 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self._header()
-        counter = 0
-        while True:
-            time.sleep(0.5)
-            counter += 1
-            data = "<p>" + str(counter) + "</p>\n"
-            data =  bytes(data, "utf-8")
-            self.wfile.write(data)
-            self.
+        data = "<h1>" + str(next(self.counter)) + "</h1>\n"
+        data = HTML_TEMPLATE.substitute({"body": data})
+        data = bytes(data, "utf-8")
+        self.wfile.write(data)
+
 
 
 
