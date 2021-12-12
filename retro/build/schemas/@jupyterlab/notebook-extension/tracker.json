@@ -163,6 +163,14 @@
           {
             "type": "separator",
             "rank": 11
+          },
+          {
+            "command": "notebook:toggle-render-side-by-side",
+            "rank": 12
+          },
+          {
+            "type": "separator",
+            "rank": 12
           }
         ]
       },
@@ -574,6 +582,11 @@
       "command": "notebook:undo-cell-action",
       "keys": ["Z"],
       "selector": ".jp-Notebook:focus"
+    },
+    {
+      "command": "notebook:toggle-render-side-by-side",
+      "keys": ["Shift R"],
+      "selector": ".jp-Notebook:focus"
     }
   ],
   "title": "Notebook",
@@ -582,26 +595,32 @@
     "editorConfig": {
       "properties": {
         "autoClosingBrackets": {
-          "type": "boolean"
+          "type": "boolean",
+          "default": false
         },
         "cursorBlinkRate": {
           "type": "number",
           "title": "Cursor blinking rate",
-          "description": "Half-period in milliseconds used for cursor blinking. The default blink rate is 530ms. By setting this to zero, blinking can be disabled. A negative value hides the cursor entirely."
+          "description": "Half-period in milliseconds used for cursor blinking. The default blink rate is 530ms. By setting this to zero, blinking can be disabled. A negative value hides the cursor entirely.",
+          "default": 530
         },
         "fontFamily": {
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "default": null
         },
         "fontSize": {
           "type": ["integer", "null"],
           "minimum": 1,
-          "maximum": 100
+          "maximum": 100,
+          "default": null
         },
         "lineHeight": {
-          "type": ["number", "null"]
+          "type": ["number", "null"],
+          "default": null
         },
         "lineNumbers": {
-          "type": "boolean"
+          "type": "boolean",
+          "default": false
         },
         "lineWrap": {
           "type": "string",
@@ -611,28 +630,39 @@
           "type": "boolean"
         },
         "readOnly": {
-          "type": "boolean"
+          "type": "boolean",
+          "default": false
         },
         "insertSpaces": {
-          "type": "boolean"
+          "type": "boolean",
+          "default": true
         },
         "tabSize": {
-          "type": "number"
+          "type": "number",
+          "default": 4
         },
         "wordWrapColumn": {
-          "type": "integer"
+          "type": "integer",
+          "default": 80
         },
         "rulers": {
           "type": "array",
           "items": {
             "type": "number"
-          }
+          },
+          "default": []
         },
         "codeFolding": {
-          "type": "boolean"
+          "type": "boolean",
+          "default": false
         },
         "lineWiseCopyCut": {
-          "type": "boolean"
+          "type": "boolean",
+          "default": true
+        },
+        "showTrailingSpace": {
+          "type": "boolean",
+          "default": false
         }
       },
       "additionalProperties": false,
@@ -644,6 +674,14 @@
       "title": "Code Cell Configuration",
       "description": "The configuration for all code cells.",
       "$ref": "#/definitions/editorConfig",
+      "properties": {
+        "lineWarp": {
+          "default": "off"
+        },
+        "matchBrackets": {
+          "default": true
+        }
+      },
       "default": {
         "autoClosingBrackets": false,
         "cursorBlinkRate": 530,
@@ -659,7 +697,8 @@
         "wordWrapColumn": 80,
         "rulers": [],
         "codeFolding": false,
-        "lineWiseCopyCut": true
+        "lineWiseCopyCut": true,
+        "showTrailingSpace": false
       }
     },
     "defaultCell": {
@@ -679,6 +718,14 @@
       "title": "Markdown Cell Configuration",
       "description": "The configuration for all markdown cells.",
       "$ref": "#/definitions/editorConfig",
+      "properties": {
+        "lineWarp": {
+          "default": "on"
+        },
+        "matchBrackets": {
+          "default": false
+        }
+      },
       "default": {
         "autoClosingBrackets": false,
         "cursorBlinkRate": 530,
@@ -694,13 +741,22 @@
         "wordWrapColumn": 80,
         "rulers": [],
         "codeFolding": false,
-        "lineWiseCopyCut": true
+        "lineWiseCopyCut": true,
+        "showTrailingSpace": false
       }
     },
     "rawCellConfig": {
       "title": "Raw Cell Configuration",
       "description": "The configuration for all raw cells.",
       "$ref": "#/definitions/editorConfig",
+      "properties": {
+        "lineWarp": {
+          "default": "on"
+        },
+        "matchBrackets": {
+          "default": false
+        }
+      },
       "default": {
         "autoClosingBrackets": false,
         "cursorBlinkRate": 530,
@@ -716,7 +772,8 @@
         "wordWrapColumn": 80,
         "rulers": [],
         "codeFolding": false,
-        "lineWiseCopyCut": true
+        "lineWiseCopyCut": true,
+        "showTrailingSpace": false
       }
     },
     "scrollPastEnd": {
@@ -760,6 +817,12 @@
       "description": "Defines the maximum number of output cells to to to be rendered in the output area for cells with many outputs. The output area will have a head and a tail, and the outputs between will be trimmed and not displayed unless the user clicks on the information message.",
       "type": "number",
       "default": 50
+    },
+    "experimentalDisableDocumentWideUndoRedo": {
+      "title": "Experimental settings to enable the undo/redo on the notebook document level.",
+      "description": "Disable the undo/redo on the notebook document level, so actions independent cells can have their own history. The undo/redo never applies on the outputs, in other words, outputs don't have history. A moved cell completely looses history capability for now.",
+      "type": "boolean",
+      "default": false
     }
   },
   "additionalProperties": false,

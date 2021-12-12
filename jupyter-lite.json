@@ -2,27 +2,31 @@
   "jupyter-config-data": {
     "appName": "JupyterLite For Advanced Python",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-alpha.8",
+    "appVersion": "0.1.0-alpha.18",
     "baseUrl": "./",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
         "extension": "./extension",
-        "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
+        "liteExtension": false,
+        "load": "static/remoteEntry.0669f029dec300bc7301.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.bf6b3192a558615425cd.js",
         "name": "@telamonian/theme-darcula"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.145e469029155b53b350.js",
         "name": "@timkpaine/jupyterlab_miami_nights"
       },
       {
         "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.8f896d6ad92823566c46.js",
         "name": "jupyterlab-drawio",
         "style": "./style"

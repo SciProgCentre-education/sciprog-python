@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-11T15:45:42.434345Z",
+      "created": "2021-12-12T13:32:24.103791Z",
       "format": null,
-      "last_modified": "2021-12-11T15:45:05.661886Z",
+      "last_modified": "2021-12-12T13:31:34.079149Z",
       "mimetype": "application/json",
       "name": "test.json",
       "path": "format/test.json",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-11T15:45:42.434345Z",
+      "created": "2021-12-12T13:32:24.103791Z",
       "format": null,
-      "last_modified": "2021-12-11T15:45:05.661886Z",
+      "last_modified": "2021-12-12T13:31:34.079149Z",
       "mimetype": "text/x-python",
       "name": "json_.py",
       "path": "format/json_.py",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-11T15:45:42.434345Z",
+  "created": "2021-12-12T13:32:24.103791Z",
   "format": "json",
-  "last_modified": "2021-12-11T15:45:42.434345Z",
+  "last_modified": "2021-12-12T13:32:24.103791Z",
   "mimetype": null,
   "name": "format",
   "path": "format",
