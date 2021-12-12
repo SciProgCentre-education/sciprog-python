@@ -20,7 +20,7 @@ jobs:
           python-version: 3.8
       - name: Install the dependencies
         run: |
-          python -m pip --pre install -r requirements.txt
+          python -m pip install --pre -r requirements.txt
       - name: Build the JupyterLite site
         run: |
           jupyter lite build
