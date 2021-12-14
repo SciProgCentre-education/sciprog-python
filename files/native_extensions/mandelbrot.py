@@ -1,8 +1,4 @@
-import time
-
 import numpy as np
-from matplotlib import pyplot as plt
-
 
 def mandelbrot():
     pmin, pmax, qmin, qmax = -2.5, 1.5, -2, 2
@@ -22,9 +18,9 @@ def mandelbrot():
     return image
 
 if __name__ == '__main__':
-    tic = time.perf_counter()
+    # tic = time.perf_counter()
     image = mandelbrot()
-    toc = time.perf_counter()
-    print(toc - tic, "s")
-    plt.imshow(image)
-    plt.show()
+    # toc = time.perf_counter()
+    # print(toc - tic, "s")
+    # plt.imshow(image)
+    # plt.show()
