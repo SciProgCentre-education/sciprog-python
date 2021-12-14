@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-14T15:26:31.467774Z",
+      "created": "2021-12-14T15:26:53.917108Z",
       "format": null,
-      "last_modified": "2021-12-14T15:25:50.675209Z",
+      "last_modified": "2021-12-14T15:26:16.837298Z",
       "mimetype": "text/x-python",
       "name": "UDP_client.py",
       "path": "Networking/UDP_client.py",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-14T15:26:31.467774Z",
+      "created": "2021-12-14T15:26:53.917108Z",
       "format": null,
-      "last_modified": "2021-12-14T15:25:50.675209Z",
+      "last_modified": "2021-12-14T15:26:16.837298Z",
       "mimetype": null,
       "name": "01.Plotly.ipynb",
       "path": "Networking/01.Plotly.ipynb",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-14T15:26:31.471774Z",
+      "created": "2021-12-14T15:26:53.917108Z",
       "format": null,
-      "last_modified": "2021-12-14T15:25:50.675209Z",
+      "last_modified": "2021-12-14T15:26:16.837298Z",
       "mimetype": "text/x-python",
       "name": "plotly_http.py",
       "path": "Networking/plotly_http.py",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-14T15:26:31.471774Z",
+      "created": "2021-12-14T15:26:53.917108Z",
       "format": null,
-      "last_modified": "2021-12-14T15:25:50.675209Z",
+      "last_modified": "2021-12-14T15:26:16.837298Z",
       "mimetype": "text/x-python",
       "name": "http_dynamic.py",
       "path": "Networking/http_dynamic.py",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2021-12-14T15:26:31.471774Z",
+      "created": "2021-12-14T15:26:53.917108Z",
       "format": null,
-      "last_modified": "2021-12-14T15:25:50.675209Z",
+      "last_modified": "2021-12-14T15:26:16.837298Z",
       "mimetype": "text/x-python",
       "name": "UDP_server.py",
       "path": "Networking/UDP_server.py",
@@ -61,9 +61,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-14T15:26:31.471774Z",
+  "created": "2021-12-14T15:26:53.917108Z",
   "format": "json",
-  "last_modified": "2021-12-14T15:26:31.471774Z",
+  "last_modified": "2021-12-14T15:26:53.917108Z",
   "mimetype": null,
   "name": "Networking",
   "path": "Networking",
