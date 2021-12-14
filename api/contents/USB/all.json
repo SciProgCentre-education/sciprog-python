@@ -2,20 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-12T14:15:35.042430Z",
+      "created": "2021-12-14T15:26:31.471774Z",
       "format": null,
-      "last_modified": "2021-12-12T14:14:54.302161Z",
+      "last_modified": "2021-12-14T15:25:50.675209Z",
       "mimetype": "text/x-python",
       "name": "USB.py",
       "path": "USB/USB.py",
-      "size": 2066,
+      "size": 8385,
       "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-14T15:26:31.471774Z",
+      "format": null,
+      "last_modified": "2021-12-14T15:25:50.675209Z",
+      "mimetype": null,
+      "name": "01.USB.ipynb",
+      "path": "USB/01.USB.ipynb",
+      "size": 46646,
+      "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2021-12-12T14:15:35.042430Z",
+  "created": "2021-12-14T15:26:31.471774Z",
   "format": "json",
-  "last_modified": "2021-12-12T14:15:35.042430Z",
+  "last_modified": "2021-12-14T15:26:31.471774Z",
   "mimetype": null,
   "name": "USB",
   "path": "USB",

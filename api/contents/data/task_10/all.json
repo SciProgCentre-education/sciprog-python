@@ -2,32 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-12T14:15:35.042430Z",
+      "created": "2021-12-14T15:26:31.471774Z",
       "format": null,
-      "last_modified": "2021-12-12T14:14:54.310161Z",
-      "mimetype": "application/zip",
-      "name": "data.zip",
-      "path": "data/task_10/data.zip",
-      "size": 1764352,
-      "type": "file",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2021-12-12T14:15:35.042430Z",
-      "format": null,
-      "last_modified": "2021-12-12T14:14:54.302161Z",
+      "last_modified": "2021-12-14T15:25:50.675209Z",
       "mimetype": null,
       "name": "README_RDM",
       "path": "data/task_10/README_RDM",
       "size": 2683,
       "type": "file",
       "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-14T15:26:31.471774Z",
+      "format": null,
+      "last_modified": "2021-12-14T15:25:50.687209Z",
+      "mimetype": "application/zip",
+      "name": "data.zip",
+      "path": "data/task_10/data.zip",
+      "size": 1764352,
+      "type": "file",
+      "writable": true
     }
   ],
-  "created": "2021-12-12T14:15:35.042430Z",
+  "created": "2021-12-14T15:26:31.471774Z",
   "format": "json",
-  "last_modified": "2021-12-12T14:15:35.042430Z",
+  "last_modified": "2021-12-14T15:26:31.471774Z",
   "mimetype": null,
   "name": "task_10",
   "path": "data/task_10",
